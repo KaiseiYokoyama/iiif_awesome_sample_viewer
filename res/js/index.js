@@ -41,9 +41,9 @@ ManifestLoader.getImages("http://www2.dhii.jp/nijl/NIJL0001/SA4-0026/manifest.js
 
             if (direction === DIRECTION.LEFT) {
                 next.classList.add('display');
-            } else if(direction === DIRECTION.RIGHT) {
+            } else if (direction === DIRECTION.RIGHT) {
                 prev.classList.add('display');
-            } else if(direction === DIRECTION.UP) {
+            } else if (direction === DIRECTION.UP) {
                 const first = document.querySelector('body > img');
                 first.classList.add('display');
             } else if (direction === DIRECTION.DOWN) {
@@ -55,3 +55,19 @@ ManifestLoader.getImages("http://www2.dhii.jp/nijl/NIJL0001/SA4-0026/manifest.js
         }
     }
 );
+
+document.addEventListener('DOMContentLoaded', function () {
+    var elems = document.querySelectorAll('.fixed-action-btn');
+    var instances = M.FloatingActionButton.init(elems, {});
+});
+
+function zoon_in() {
+    const image = document.querySelector('body > img.display');
+    console.log(image);
+    image.style.scale = parseFloat(image.style.scale) + 0.25;
+}
+
+function zoon_out() {
+    const image = document.querySelector('body > img.display');
+    image.style.scale = parseFloat(image.style.scale) - 0.25;
+}
