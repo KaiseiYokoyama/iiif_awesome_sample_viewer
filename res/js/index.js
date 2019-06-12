@@ -64,63 +64,13 @@ document.addEventListener('DOMContentLoaded', function () {
     canvases.appendChild(canvas);
 
     const instance = new Canvas(canvas);
-    instance.getImages("http://www2.dhii.jp/nijl/NIJL0001/SA4-0026/manifest.json", function (xhr, elem) {
-        const images = JSON.parse(xhr.responseText);
+    instance.getImages("http://www2.dhii.jp/nijl/NIJL0001/SA4-0026/manifest.json");
 
-        // register to html
-        for (let i = 0; i < images.length; i++) {
-            const image = document.createElement('img');
-            image.src = images[i];
-            elem.appendChild(image);
-        }
-
-        elem.querySelector('img').classList.add('display');
-
-        // set keyDown Event
-        window.onkeydown = function (event) {
-            const DIRECTION = {
-                LEFT: 0,
-                UP: 1,
-                RIGHT: 2,
-                DOWN: 3,
-            };
-
-            let direction;
-            switch (event.keyCode) {
-                case 37:
-                    direction = DIRECTION.LEFT;
-                    break;
-                case 38:
-                    direction = DIRECTION.UP;
-                    break;
-                case 39:
-                    direction = DIRECTION.RIGHT;
-                    break;
-                case 40:
-                    direction = DIRECTION.DOWN;
-                    break;
-            }
-
-            const now = elem.querySelector('img.display');
-            const prev = now.previousSibling;
-            const next = now.nextSibling;
-
-            if (direction === DIRECTION.LEFT) {
-                next.classList.add('display');
-            } else if (direction === DIRECTION.RIGHT) {
-                prev.classList.add('display');
-            } else if (direction === DIRECTION.UP) {
-                const first = elem.querySelector('img');
-                first.classList.add('display');
-            } else if (direction === DIRECTION.DOWN) {
-                const last = elem.querySelector('img:last-of-type');
-                last.classList.add('display');
-            }
-
-            now.classList.remove('display');
-        }
-    });
-
+    const canvas2 = document.createElement('div');
+    canvas2.classList.add('canvas');
+    canvases.appendChild(canvas2);
+    const instance2 = new Canvas(canvas2);
+    instance2.getImages("http://www2.dhii.jp/nijl/NIJL0003/049-0197/manifest.json");
 
     var elems = document.querySelectorAll('.fixed-action-btn');
     var instances = M.FloatingActionButton.init(elems, {});

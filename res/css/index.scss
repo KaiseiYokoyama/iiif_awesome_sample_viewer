@@ -1,17 +1,24 @@
 .canvases {
   display: flex;
+  // サイズ指定
+  max-width: 100vw;
+  max-height: 100vh;
 
   > .canvas {
     // サイズ指定
     flex: 1 1;
+
+    // 背景色
+    background-color: darkgrey;
 
     // 中央寄せ
     display: flex;
     justify-content: center;
 
     img {
-      max-width: 100vw;
-      max-height: 100vh;
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: contain;
       // 通常は非表示
       display: none;
 

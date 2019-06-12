@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8e88cde-c1af-48c3-a608-c4b4191ca2ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/css/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/res/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/res/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/js/ManifestLoader.js" beforeDir="false" afterPath="$PROJECT_DIR$/res/js/Canvas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/css/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/res/css/index.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/css/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/res/css/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/js/Canvas.js" beforeDir="false" afterPath="$PROJECT_DIR$/res/js/Canvas.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/res/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/res/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/pages/index.html.tera" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pages/index.html.tera" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -47,8 +45,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="103" column="57" lean-forward="true" selection-start-line="103" selection-start-column="57" selection-end-line="103" selection-end-column="57" />
+            <state relative-caret-position="240">
+              <caret line="72" column="82" selection-start-line="72" selection-start-column="82" selection-end-line="72" selection-end-column="82" />
             </state>
           </provider>
         </entry>
@@ -56,8 +54,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/js/Canvas.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+            <state relative-caret-position="375">
+              <caret line="87" column="17" selection-start-line="87" selection-start-column="17" selection-end-line="87" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -65,8 +63,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/res/css/index.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="165">
+              <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -126,9 +124,9 @@
         <option value="$PROJECT_DIR$/src/pages/res.rs" />
         <option value="$PROJECT_DIR$/res/js/ManifestLoader.js" />
         <option value="$PROJECT_DIR$/res/css/index.css" />
-        <option value="$PROJECT_DIR$/res/js/Canvas.js" />
-        <option value="$PROJECT_DIR$/res/js/index.js" />
         <option value="$PROJECT_DIR$/templates/pages/index.html.tera" />
+        <option value="$PROJECT_DIR$/res/js/index.js" />
+        <option value="$PROJECT_DIR$/res/js/Canvas.js" />
         <option value="$PROJECT_DIR$/res/css/index.scss" />
       </list>
     </option>
@@ -280,12 +278,12 @@
       <workItem from="1559824127233" duration="149000" />
       <workItem from="1559828060846" duration="8170000" />
       <workItem from="1560213721841" duration="5000" />
-      <workItem from="1560309594702" duration="1820000" />
+      <workItem from="1560309594702" duration="4178000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16435000" />
+    <option name="totallyTimeSpent" value="18793000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -412,20 +410,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="103" column="57" lean-forward="true" selection-start-line="103" selection-start-column="57" selection-end-line="103" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/js/Canvas.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/pages/index.html.tera">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -433,10 +417,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/res/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="72" column="82" selection-start-line="72" selection-start-column="82" selection-end-line="72" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/js/Canvas.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="87" column="17" selection-start-line="87" selection-start-column="17" selection-end-line="87" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/res/css/index.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="165">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
         </state>
       </provider>
     </entry>
