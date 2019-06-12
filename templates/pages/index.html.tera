@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <script src="/res/js/ManifestLoader.js"></script>
+    <script src="/res/js/Canvas.js"></script>
     <script src="/res/js/index.js"></script>
     <link href="/res/css/index.css" rel="stylesheet">
 
@@ -14,14 +14,13 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
-<div class="fixed-action-btn">
-    <a class="btn-floating btn-large red">
-        <i class="large material-icons">search</i>
-    </a>
-    <ul>
-        <li><a class="btn-floating red" onclick="zoon_in()"><i class="material-icons">zoom_in</i></a></li>
-        <li><a class="btn-floating yellow darken-1" onclick="zoon_out()"><i class="material-icons">zoom_out</i></a></li>
-    </ul>
+<div class="canvases">
+
 </div>
+<!--<div class="fixed-action-btn">-->
+<!--    <a class="btn-floating btn-large red" onclick="zoom()">-->
+<!--        <i class="large material-icons">search</i>-->
+<!--    </a>-->
+<!--</div>-->
 </body>
 </html>

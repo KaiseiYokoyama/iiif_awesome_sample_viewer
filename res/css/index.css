@@ -1,13 +1,18 @@
-body {
-    display: flex;
+.canvases {
+  display: flex;
+}
+.canvases > .canvas {
+  flex: 1 1;
+  display: flex;
+  justify-content: center;
+}
+.canvases > .canvas img {
+  max-width: 100vw;
+  max-height: 100vh;
+  display: none;
+}
+.canvases > .canvas img.display {
+  display: block;
 }
 
-body > img {
-    display: none;
-    max-width: 100vw;
-    max-height: 100vh;
-}
-
-body > img.display {
-    display: block;
-}
+/*# sourceMappingURL=index.css.map */
