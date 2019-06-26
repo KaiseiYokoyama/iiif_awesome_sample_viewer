@@ -1,19 +1,22 @@
 .canvases {
   display: flex;
   // サイズ指定
+  // todo debug
   max-width: 100vw;
   max-height: 100vh;
+  width: 100vw;
+  height: 100vh;
 
   > .canvas {
     // サイズ指定
     flex: 1 1;
 
     // 背景色
-    background-color: darkgrey;
+    background-color: white;
 
     // 中央寄せ
-    display: flex;
-    justify-content: center;
+    //display: flex;
+    //justify-content: center;
 
     img {
       max-width: 100%;

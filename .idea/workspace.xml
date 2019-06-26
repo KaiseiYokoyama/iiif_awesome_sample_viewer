@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8e88cde-c1af-48c3-a608-c4b4191ca2ee" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/res/js/CustomizedCanvas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/res/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/res/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/res/css/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/res/css/index.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/res/css/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/res/css/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/js/Canvas.js" beforeDir="false" afterPath="$PROJECT_DIR$/res/js/Canvas.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/res/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/res/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/pages/index.html.tera" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pages/index.html.tera" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -45,44 +47,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="72" column="82" selection-start-line="72" selection-start-column="82" selection-end-line="72" selection-end-column="82" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/js/Canvas.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="87" column="17" selection-start-line="87" selection-start-column="17" selection-end-line="87" selection-end-column="17" />
+            <state relative-caret-position="150">
+              <caret line="66" column="83" selection-start-line="66" selection-start-column="27" selection-end-line="66" selection-end-column="83" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/res/css/index.scss">
+        <entry file="file://$PROJECT_DIR$/res/js/CustomizedCanvas.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/pages/index.html.tera">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Cargo.toml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+            <state relative-caret-position="346">
+              <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
             </state>
           </provider>
         </entry>
@@ -103,6 +78,8 @@
     <findStrings>
       <find>#[serde(deny_unknown_fields)]</find>
       <find>ManifestLoader</find>
+      <find>show</find>
+      <find>click</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -124,10 +101,11 @@
         <option value="$PROJECT_DIR$/src/pages/res.rs" />
         <option value="$PROJECT_DIR$/res/js/ManifestLoader.js" />
         <option value="$PROJECT_DIR$/res/css/index.css" />
-        <option value="$PROJECT_DIR$/templates/pages/index.html.tera" />
-        <option value="$PROJECT_DIR$/res/js/index.js" />
         <option value="$PROJECT_DIR$/res/js/Canvas.js" />
+        <option value="$PROJECT_DIR$/res/js/index.js" />
         <option value="$PROJECT_DIR$/res/css/index.scss" />
+        <option value="$PROJECT_DIR$/templates/pages/index.html.tera" />
+        <option value="$PROJECT_DIR$/res/js/CustomizedCanvas.js" />
       </list>
     </option>
   </component>
@@ -150,7 +128,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -190,12 +167,6 @@
             <path>
               <item name="iiifviewer" type="b2602c69:ProjectViewProjectNode" />
               <item name="iiifviewer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="iiifviewer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="iiifviewer" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -208,6 +179,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -243,7 +215,7 @@
   </component>
   <component name="RunManager">
     <configuration name="Run iiifviewer" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="channel" value="DEFAULT" />
+      <option name="channel" value="NIGHTLY" />
       <option name="command" value="run --package iiifviewer --bin iiifviewer" />
       <option name="allFeatures" value="false" />
       <option name="nocapture" value="false" />
@@ -278,12 +250,15 @@
       <workItem from="1559824127233" duration="149000" />
       <workItem from="1559828060846" duration="8170000" />
       <workItem from="1560213721841" duration="5000" />
-      <workItem from="1560309594702" duration="4178000" />
+      <workItem from="1560309594702" duration="4528000" />
+      <workItem from="1560914243486" duration="5729000" />
+      <workItem from="1561098318088" duration="5884000" />
+      <workItem from="1561521184000" duration="735000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18793000" />
+    <option name="totallyTimeSpent" value="31491000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -295,10 +270,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27110156" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17167382" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -307,7 +282,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -382,10 +357,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.rs">
+    <entry file="file://$PROJECT_DIR$/res/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        <state>
+          <caret selection-end-line="29" />
         </state>
       </provider>
     </entry>
@@ -396,10 +371,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/css/index.css">
+    <entry file="file://$PROJECT_DIR$/res/css/index.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="29" />
+        <state relative-caret-position="93">
+          <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -410,31 +392,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/pages/index.html.tera">
+    <entry file="file://$PROJECT_DIR$/res/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+        <state relative-caret-position="150">
+          <caret line="66" column="83" selection-start-line="66" selection-start-column="27" selection-end-line="66" selection-end-column="83" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/js/index.js">
+    <entry file="file://$PROJECT_DIR$/templates/pages/index.html.tera">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="72" column="82" selection-start-line="72" selection-start-column="82" selection-end-line="72" selection-end-column="82" />
+        <state relative-caret-position="270">
+          <caret line="18" column="112" selection-start-line="18" selection-start-column="112" selection-end-line="18" selection-end-column="112" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/js/Canvas.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="87" column="17" selection-start-line="87" selection-start-column="17" selection-end-line="87" selection-end-column="17" />
+        <state relative-caret-position="207">
+          <caret line="21" column="56" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/css/index.scss">
+    <entry file="file://$PROJECT_DIR$/res/js/CustomizedCanvas.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+        <state relative-caret-position="346">
+          <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
         </state>
       </provider>
     </entry>

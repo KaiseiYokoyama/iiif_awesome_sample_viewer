@@ -56,27 +56,27 @@
 //     }
 // );
 
-document.addEventListener('DOMContentLoaded', function () {
-
-    const canvases = document.querySelector('.canvases');
-    const canvas = document.createElement('div');
-    canvas.classList.add('canvas');
-    canvases.appendChild(canvas);
-
-    const instance = new Canvas(canvas);
-    instance.getImages("http://www2.dhii.jp/nijl/NIJL0001/SA4-0026/manifest.json");
-
-    const canvas2 = document.createElement('div');
-    canvas2.classList.add('canvas');
-    canvases.appendChild(canvas2);
-    const instance2 = new Canvas(canvas2);
-    instance2.getImages("http://www2.dhii.jp/nijl/NIJL0003/049-0197/manifest.json");
-
-    var elems = document.querySelectorAll('.fixed-action-btn');
-    var instances = M.FloatingActionButton.init(elems, {});
-});
-
-function zoom() {
-    const image = document.querySelector('body > img.display');
-    image.classList.toggle('scale');
-}
+// document.addEventListener('DOMContentLoaded', function () {
+//
+//     const canvases = document.querySelector('.canvases');
+//     const canvas = document.createElement('div');
+//     canvas.classList.add('canvas');
+//     canvases.appendChild(canvas);
+//
+//     const instance = new Canvas(canvas);
+//     instance.getImages("http://www2.dhii.jp/nijl/NIJL0001/SA4-0026/manifest.json");
+//
+//     const canvas2 = document.createElement('div');
+//     canvas2.classList.add('canvas');
+//     canvases.appendChild(canvas2);
+//     const instance2 = new Canvas(canvas2);
+//     instance2.getImages("http://www2.dhii.jp/nijl/NIJL0003/049-0197/manifest.json");
+//
+//     var elems = document.querySelectorAll('.fixed-action-btn');
+//     var instances = M.FloatingActionButton.init(elems, {});
+// });
+//
+// function zoom() {
+//     const image = document.querySelector('body > img.display');
+//     image.classList.toggle('scale');
+// }

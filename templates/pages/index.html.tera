@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <script src="/res/js/CustomizedCanvas.js"></script>
     <script src="/res/js/Canvas.js"></script>
     <script src="/res/js/index.js"></script>
     <link href="/res/css/index.css" rel="stylesheet">
@@ -15,7 +16,7 @@
 </head>
 <body>
 <div class="canvases">
-
+<canvas class="canvas" is="customized-canvas" manifest="http://www2.dhii.jp/nijl/NIJL0015/049-0011/manifest.json"></canvas>
 </div>
 <!--<div class="fixed-action-btn">-->
 <!--    <a class="btn-floating btn-large red" onclick="zoom()">-->
